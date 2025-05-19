@@ -95,21 +95,16 @@ const App = () => {
           </div>
         </div>
       </div>
-      
-      {/* Logo Center Header */}
-      <div className="border-b border-gray-200 py-4">
-        <div className="container mx-auto px-4 flex justify-center">
-          <div className="text-2xl font-bold text-blue-800">
-            ProLab <span className="text-blue-600">Systems</span>
-            <div className="text-xs text-gray-500 text-center">Your Quality Is Our Concern</div>
-          </div>
-        </div>
-      </div>
+    
       
       {/* Main Navigation */}
       <div className="bg-gray-100 border-b border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex justify-center">
+          <div className="text-2xl font-bold text-blue-800">
+            ProLab <span className="text-blue-600">Systems</span>
+            <div className="text-xs text-gray-500 text-center">Your Quality Is Our Concern</div>
+          </div>
             <nav className="hidden md:flex">
               <a href="#" className="bg-blue-800 text-white px-6 py-4 font-medium text-sm">Home</a>
               <a href="#" className="text-gray-700 hover:bg-gray-200 px-6 py-4 font-medium text-sm flex items-center">
