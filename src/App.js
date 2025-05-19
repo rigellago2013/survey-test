@@ -169,33 +169,33 @@ const App = () => {
   </header>
   
   {/* Hero Section */}
-  <section className="py-16 md:py-24 bg-gray-50">
-    <div className="container mx-auto px-4">
-      <div className="flex flex-col md:flex-row items-center">
-        {/* Text Content */}
-        <div className="md:w-1/2 mb-8 md:mb-0">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Precision science <span className="text-blue-600">for over 25 years</span>
-          </h1>
-          <p className="text-gray-600 mb-8">
-            Where precision matters: equipping laboratories with cutting-edge instruments and reliable solutions
-          </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-sm font-medium transition-colors duration-300">
-            Contact Us
-          </button>
-        </div>
-        
-        {/* Hero Image */}
-        <div className="md:w-1/2">
-          <img 
-            src="https://www.bdo.co.za/BDO/media/bdo/Images/1140x1026-Banner-Images/Laboratory-1140X1026.jpg" 
-            alt="Laboratory equipment"
-            className="w-full h-auto rounded-lg shadow-lg"
-          />
-        </div>
+<section className="min-h-screen bg-gray-50 flex items-center">
+  <div className="container mx-auto px-4">
+    <div className="flex flex-col md:flex-row items-center">
+      {/* Text Content */}
+      <div className="md:w-1/2 mb-8 md:mb-0">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          Precision science <span className="text-blue-600">for over 25 years</span>
+        </h1>
+        <p className="text-gray-600 mb-8">
+          Where precision matters: equipping laboratories with cutting-edge instruments and reliable solutions
+        </p>
+        <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-sm font-medium transition-colors duration-300">
+          Contact Us
+        </button>
+      </div>
+      
+      {/* Hero Image */}
+      <div className="md:w-1/2">
+        <img 
+          src="https://www.bdo.co.za/BDO/media/bdo/Images/1140x1026-Banner-Images/Laboratory-1140X1026.jpg" 
+          alt="Laboratory equipment"
+          className="w-full h-auto rounded-lg shadow-lg"
+        />
       </div>
     </div>
-  </section>
+  </div>
+</section>
   
   {/* Clients Section */}
   <section className="py-12 md:py-16">
