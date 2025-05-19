@@ -313,49 +313,7 @@ const App = () => {
           </div>
         </div>
       </section>
-      
-      {/* Testimonial Section */}
-      <section className="py-16 bg-gray-800 text-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/4 mb-6 md:mb-0">
-              <img 
-                src="https://www.kaust.edu.sa/PublishingImages/Reusable/KAUST-logo.png?renditionID=1" 
-                alt="KAUST logo"
-                className="h-16 object-contain mx-auto md:mx-0 invert"
-              />
-            </div>
-            <div className="md:w-3/4 md:pl-12">
-              <p className="text-xl mb-6 leading-relaxed">
-                "ProLab Systems' advanced spectroscopy equipment has been instrumental in our research on solar cell technologies. Their technical support team's expertise has helped us optimize our methodology and accelerate our research. We've been able to publish findings faster and secure additional funding based on our results."
-              </p>
-              <div className="flex items-center">
-                <img 
-                  src="/api/placeholder/60/60" 
-                  alt="Dr. Ahmad Al-Ghamdi"
-                  className="w-12 h-12 rounded-full mr-4"
-                />
-                <div>
-                  <h4 className="font-bold">Dr. Ahmad Al-Ghamdi</h4>
-                  <p className="text-gray-300">Research Director, KAUST</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="flex flex-wrap justify-center items-center gap-6 mt-12">
-            {clients.map((client, index) => (
-              <div key={index} className="w-16 h-10 flex items-center justify-center">
-                <img 
-                  src={client.logo} 
-                  alt={client.name}
-                  className="w-full h-full object-contain invert opacity-70"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
       
       {/* Blog Section */}
       <section className="py-16 bg-white">
