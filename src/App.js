@@ -188,7 +188,7 @@ const App = () => {
       {/* Hero Image */}
       <div className="md:w-1/2">
         <img 
-          src="https://www.bdo.co.za/BDO/media/bdo/Images/1140x1026-Banner-Images/Laboratory-1140X1026.jpg" 
+          src="https://img.freepik.com/free-vector/science-laboratory-realistic-composition-consisting-microscope-flasks-with-chemical-reagents-vector-illustration_1284-84978.jpg?semt=ais_hybrid&w=740" 
           alt="Laboratory equipment"
           className="w-full h-auto rounded-lg shadow-lg"
         />
