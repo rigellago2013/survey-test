@@ -74,6 +74,41 @@ const App = () => {
       description: "Our new software integration is changing how labs operate daily"
     }
   ];
+
+    const featuredProducts = [
+    {
+      id: 1,
+      name: "QuantumSpec Pro 5000",
+      category: "Spectroscopy",
+      description: "High-precision spectrometer with quantum detection technology",
+      price: "$24,999",
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
+    },
+    {
+      id: 2,
+      name: "CryoPrep Ultra",
+      category: "Sample Preparation",
+      description: "Advanced cryogenic sample preparation system with automated processing",
+      price: "$18,750",
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
+    },
+    {
+      id: 3,
+      name: "GenomeScan Elite",
+      category: "DNA Analysis",
+      description: "Next-generation DNA sequencing and analysis platform",
+      price: "$35,800",
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
+    },
+    {
+      id: 4,
+      name: "MicroVision 4K",
+      category: "Microscopy",
+      description: "Ultra-high resolution digital microscope with AI-powered image analysis",
+      price: "$12,495",
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
+    }
+  ];
   
   return (
 <div className="min-h-screen bg-white">
