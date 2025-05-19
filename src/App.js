@@ -272,7 +272,7 @@ const App = () => {
             {clients.map((client, index) => (
               <div key={index} className="text-center w-full sm:w-auto sm:min-w-[120px]">
                 <img 
-                  src="/api/placeholder/120/60" 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNe7teOBCSlPeb-KL697oPSO40qfYgvi0-gQ&s" 
                   alt={client}
                   className="h-8 md:h-12 object-contain mx-auto"
                 />
