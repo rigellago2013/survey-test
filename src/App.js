@@ -12,7 +12,7 @@ const App = () => {
       category: "Spectroscopy",
       description: "High-precision spectrometer with quantum detection technology",
       price: "$24,999",
-      image: "/api/placeholder/600/400"
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ const App = () => {
       category: "Sample Preparation",
       description: "Advanced cryogenic sample preparation system with automated processing",
       price: "$18,750",
-      image: "/api/placeholder/600/400"
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const App = () => {
       category: "DNA Analysis",
       description: "Next-generation DNA sequencing and analysis platform",
       price: "$35,800",
-      image: "/api/placeholder/600/400"
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const App = () => {
       category: "Microscopy",
       description: "Ultra-high resolution digital microscope with AI-powered image analysis",
       price: "$12,495",
-      image: "/api/placeholder/600/400"
+      image: "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg"
     }
   ];
   
