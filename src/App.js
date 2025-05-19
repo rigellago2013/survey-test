@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Menu, X, ChevronDown, User, ChevronRight, ExternalLink, ArrowRight } from 'lucide-react';
 
-const LabWebsite = () => {
+const App = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeClientSlide, setActiveClientSlide] = useState(8);
   
@@ -231,7 +231,14 @@ const LabWebsite = () => {
       {/* Blog Section */}
       <section className="py-8 md:py-12">
         <div className="container mx-auto px-4">
-          <SectionTitle title="LATEST FROM OUR BLOG" />
+          <div className="flex justify-center mb-12">
+            <div className="text-center relative">
+              <h2 className="text-2xl font-bold text-gray-800 uppercase">LATEST FROM OUR BLOG</h2>
+              <div className="absolute -bottom-2 left-0 right-0 flex justify-center">
+                <div className="w-12 h-0.5 bg-blue-800"></div>
+              </div>
+            </div>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {blogPosts.map((post, index) => (
@@ -268,7 +275,14 @@ const LabWebsite = () => {
       {/* Clients Section */}
       <section className="py-8 md:py-12">
         <div className="container mx-auto px-4">
-          <SectionTitle title="OUR CLIENTS" />
+          <div className="flex justify-center mb-12">
+            <div className="text-center relative">
+              <h2 className="text-2xl font-bold text-gray-800 uppercase">OUR CLIENTS</h2>
+              <div className="absolute -bottom-2 left-0 right-0 flex justify-center">
+                <div className="w-8 h-0.5 bg-blue-800"></div>
+              </div>
+            </div>
+          </div>
           
           <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mt-8 md:mt-12">
             {clients.map((client, index) => (
