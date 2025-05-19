@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Search, Menu, X, ChevronDown, User, ChevronRight, ExternalLink, ArrowRight } from 'lucide-react';
 
-const App = () => {
+const LabWebsite = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeClientSlide, setActiveClientSlide] = useState(8);
   
-  const featuredProducts = [
+  const App = [
     {
       id: 1,
       name: "QuantumSpec Pro 5000",
