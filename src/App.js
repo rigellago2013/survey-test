@@ -52,19 +52,19 @@ const App = () => {
       date: { day: 22, month: "AUG" },
       title: "How Automation Secures the Future Workforce",
       excerpt: "Automation is not a threat to jobs, but a way to create more valuable and[...]",
-      image: "/api/placeholder/400/250"
+      image: "https://emmainternational.com/wp-content/uploads/2024/05/Lab_Chemistry-scaled.jpeg"
     },
     {
       date: { day: 24, month: "JUL" },
       title: "Solving mining challenges with the new Revontium™ XRF instrument",
       excerpt: "The energy transition is driving demand for the critical elements that will help decarbonize our[...]",
-      image: "/api/placeholder/400/250"
+      image: "https://www.chitkara.edu.in/blogs/wp-content/uploads/2024/08/Laboratory-Science.jpg"
     },
     {
       date: { day: 26, month: "JUN" },
       title: "Waste not, want not: Fueling green cement",
       excerpt: "How many people do you think there will be on Earth by 2050? According to[...]",
-      image: "/api/placeholder/400/250"
+      image: "https://www.augustahealth.com/wp-content/uploads/2021/10/labratory-image.jpg"
     }
   ];
   
