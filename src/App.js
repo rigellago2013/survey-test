@@ -317,7 +317,7 @@ const App = () => {
             </div>
 
             {/* Hero Image - bigger and moved up */}
-            <div className="md:w-3/4 flex justify-end items-center md:-mt-[15%]">
+            <div className="md:w-3/4 flex justify-end items-center md:-mt-[15%] px-12">
               <img
                 src="/hero-img2.png"
                 alt="Laboratory equipment"
