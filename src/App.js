@@ -296,16 +296,13 @@ const App = () => {
           )}
         </div>
       </header>
-
-
       {/* Hero Section */}
-      
       <section className="relative min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 flex items-center overflow-hidden">
         <AnimatedBackground />
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
-            {/* Text Content */}
-            <div className="md:w-1/2 mb-8 md:mb-[14%]">
+            {/* Text Content - make it narrower */}
+            <div className="md:w-2/5 mb-8 md:mb-[15%]">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
                 Precision science{" "}
                 <span className="text-[#1f458c]">for over 25 years</span>
@@ -319,12 +316,12 @@ const App = () => {
               </button>
             </div>
 
-            {/* Hero Image */}
-            <div className="md:w-1/2 flex justify-end items-center mb-12">
+            {/* Hero Image - bigger and moved up */}
+            <div className="md:w-3/4 flex justify-end items-center md:-mt-[15%]">
               <img
                 src="/hero-img2.png"
                 alt="Laboratory equipment"
-                className="w-full h-auto"
+                className="w-full h-auto md:scale-110"
               />
             </div>
           </div>
