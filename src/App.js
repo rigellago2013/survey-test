@@ -188,7 +188,7 @@ const App = () => {
       {/* Hero Image */}
       <div className="md:w-1/2">
         <img 
-          src="https://img.freepik.com/free-vector/science-laboratory-realistic-composition-consisting-microscope-flasks-with-chemical-reagents-vector-illustration_1284-84978.jpg?semt=ais_hybrid&w=740" 
+          src="https://w7.pngwing.com/pngs/559/295/png-transparent-science-laboratory-beaker-microscope-and-reagents-technic-happy-birthday-vector-images-chemistry.png" 
           alt="Laboratory equipment"
           className="w-full h-auto rounded-lg shadow-lg"
         />
