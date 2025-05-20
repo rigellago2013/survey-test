@@ -188,7 +188,7 @@ const App = () => {
       {/* Hero Image */}
       <div className="md:w-1/2">
         <img 
-          src="public/vecteezy_colorful-3d-render-of-science-lab-equipment_56262846.png" 
+          src="public/src/vecteezy_colorful-3d-render-of-science-lab-equipment_56262846.png" 
           alt="Laboratory equipment"
           className="w-full h-auto rounded-lg shadow-lg"
         />
