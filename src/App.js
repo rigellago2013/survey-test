@@ -466,13 +466,14 @@ const App = () => {
             {categories.map((category) => (
               <div
                 key={category.id}
-                className="bg-white p-8 rounded-lg text-center shadow-md hover:shadow-md transition-shadow duration-300"
+                className="bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 p-8 rounded-lg text-center shadow-md hover:shadow-md transition-shadow duration-300"
               >
                 <div className="flex justify-center mb-6">{category.icon}</div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">
+           
+                <h3 className="text-xl font-bold text-gray-800 mb-3 mt-3">
                   {category.title}
                 </h3>
-                <p className="text-gray-600 mb-4">{category.description}</p>
+                <p className="text-gray-600 mb-4 px-[20%]">{category.description}</p>
               </div>
             ))}
           </div>
@@ -667,7 +668,7 @@ const App = () => {
             {blogPosts.map((post, index) => (
               <div
                 key={index}
-                className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-md transition-shadow duration-300"
+                className="bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 rounded-lg overflow-hidden shadow-md hover:shadow-md transition-shadow duration-300"
               >
                 <img
                   src={post.image}
