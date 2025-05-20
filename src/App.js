@@ -308,7 +308,7 @@ const App = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             {/* Text Content - make it narrower */}
-            <div className="md:w-2/4 mb-8 md:mb-[15%]">
+            <div className="md:w-2/4 mb-8 md:mb-[12%]">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
                 Precision science{" "}
                 <span className="text-[#1f458c]">for over 25 years</span>
@@ -408,9 +408,9 @@ const App = () => {
             {featuredProducts.map((product) => (
               <div
                 key={product.id}
-                className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+                className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-md transition-shadow duration-300"
               >
-                <div className="h-48 overflow-hidden">
+                <div className="h-48 overflow-hidden p-2">
                   <img
                     src={product.image}
                     alt={product.name}
@@ -466,7 +466,7 @@ const App = () => {
             {categories.map((category) => (
               <div
                 key={category.id}
-                className="bg-white p-8 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow duration-300"
+                className="bg-white p-8 rounded-lg text-center shadow-md hover:shadow-md transition-shadow duration-300"
               >
                 <div className="flex justify-center mb-6">{category.icon}</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3">
@@ -667,7 +667,7 @@ const App = () => {
             {blogPosts.map((post, index) => (
               <div
                 key={index}
-                className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+                className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-md transition-shadow duration-300"
               >
                 <img
                   src={post.image}
@@ -708,9 +708,13 @@ const App = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             <div>
-              <div className="text-xl font-bold text-blue-800 mb-4">
-                ProLab <span className="text-blue-600">Systems</span>
-              </div>
+            <div className="flex items-center mb-3">
+              <img
+                src="http://prolabsystems.com/wp/wp-content/uploads/2015/12/ProLab-Systems-Logo-210x74.png"
+                alt="ProLab Systems Logo"
+                className="w-1/2"
+              />
+            </div>
               <p className="text-gray-600 mb-4">
                 Your trusted partner in laboratory excellence since 1998
               </p>
