@@ -124,17 +124,18 @@ const App = () => {
         </div>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Products</a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Solutions</a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Services</a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Blog</a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
-        </nav>
+
         
         {/* CTA Button */}
         <div className="hidden md:block">
+          <nav className="hidden md:flex items-center space-x-6">
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Products</a>
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Solutions</a>
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Services</a>
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+          </nav>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300">
             Contact Sales →
           </button>
