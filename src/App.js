@@ -609,7 +609,7 @@ const App = () => {
               <img
                 src="https://www.kaust.edu.sa/ResourcePackages/KAUSTMain/assets/dist/images/kaust-logo.svg"
                 alt="KAUST logo"
-                className="h-16 object-contain mx-auto md:mx-0 invert"
+                className="h-[150px] object-contain mx-auto md:mx-0 invert"
               />
             </div>
             <div className="md:w-3/4 md:pl-12">
