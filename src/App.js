@@ -11,13 +11,12 @@ import {
   Beaker,
   Trophy,
   Phone,
-  Mail
+  Mail,
 } from "lucide-react";
 import AnimatedBackground from "./components/AnimatedBackground";
 
 const App = () => {
-
-    const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Handle search submission
   const handleSearchSubmit = (e) => {
@@ -37,14 +36,14 @@ const App = () => {
     { name: "NAJRAN CEMENT", logo: "/client4.png" },
     { name: "KACST", logo: "/client5.png" },
     { name: "Saudi Aramco", logo: "/client6.png" },
-     { name: "Saudi Aramco", logo: "/client7.png" },
-      { name: "Saudi Aramco", logo: "/client8.png" },
+    { name: "Saudi Aramco", logo: "/client7.png" },
+    { name: "Saudi Aramco", logo: "/client8.png" },
   ];
 
-    const certifications = [
+  const certifications = [
     { name: "AREF", logo: "/iso-900120152619.jpg" },
-      { name: "AREF", logo: "/iso-900120152619.jpg" },
-        { name: "AREF", logo: "/iso-900120152619.jpg" },
+    { name: "AREF", logo: "/iso-900120152619.jpg" },
+    { name: "AREF", logo: "/iso-900120152619.jpg" },
   ];
   // Solutions categories
   const categories = [
@@ -95,20 +94,23 @@ const App = () => {
   const blogPosts = [
     {
       title: "Cutting-Edge Spectroscopy Techniques with ProLab Systems",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/HD.6C.037_%2811856519893%29.jpg",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/3/3f/HD.6C.037_%2811856519893%29.jpg",
       description:
         "Learn how our spectroscopy equipment is helping researchers make breakthrough discoveries",
     },
     {
       title:
         "What are your lab's sustainability responsibilities and how can you manage them?",
-      image: "https://media.licdn.com/dms/image/D4E12AQGcTVRn0IY9VA/article-cover_image-shrink_720_1280/0/1707330729814?e=2147483647&v=beta&t=kAokXES3LBdccwtHD3CKexyv5ukPdzm3sW4thusW-Tk",
+      image:
+        "https://media.licdn.com/dms/image/D4E12AQGcTVRn0IY9VA/article-cover_image-shrink_720_1280/0/1707330729814?e=2147483647&v=beta&t=kAokXES3LBdccwtHD3CKexyv5ukPdzm3sW4thusW-Tk",
       description:
         "Discover eco-friendly lab practices that reduce waste while maintaining quality",
     },
     {
       title: "Automating Lab Workflows Made with TrueFlow Analytics",
-      image: "https://biomolecularsystems.com/wp-content/uploads/2021/03/iStock-968289652.jpg",
+      image:
+        "https://biomolecularsystems.com/wp-content/uploads/2021/03/iStock-968289652.jpg",
       description:
         "Our new software integration is changing how labs operate daily",
     },
@@ -164,14 +166,15 @@ const App = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="flex items-center">
-              <img src="http://prolabsystems.com/wp/wp-content/uploads/2015/12/ProLab-Systems-Logo-210x74.png"
+              <img
+                src="http://prolabsystems.com/wp/wp-content/uploads/2015/12/ProLab-Systems-Logo-210x74.png"
                 alt="ProLab Systems Logo"
                 className="w-3/4"
               />
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center">
+            <div className="hidden md:flex items-center pt-3">
               <nav className="flex items-center space-x-6">
                 <a
                   href="#"
@@ -210,10 +213,13 @@ const App = () => {
                   Contact
                 </a>
               </nav>
-              
+
               {/* Search Bar */}
               <div className="relative mx-4">
-                <form onSubmit={handleSearchSubmit} className="flex items-center">
+                <form
+                  onSubmit={handleSearchSubmit}
+                  className="flex items-center"
+                >
                   <input
                     type="text"
                     placeholder="Search products..."
@@ -277,7 +283,7 @@ const App = () => {
                 >
                   Contact
                 </a>
-                
+
                 {/* Mobile Search */}
                 <form onSubmit={handleSearchSubmit} className="relative mt-2">
                   <input
@@ -356,14 +362,15 @@ const App = () => {
           </div>
         </div>
       </section>
-<section className="py-12 md:py-16">
+      <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-800 mb-2">
               Our Certifications
             </h2>
             <p className="text-gray-600">
-              Internationally recognized standards and certifications that ensure our quality and reliability
+              Internationally recognized standards and certifications that
+              ensure our quality and reliability
             </p>
           </div>
 
