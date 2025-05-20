@@ -133,7 +133,7 @@ const App = () => {
         "Advanced cryogenic sample preparation system with automated processing",
       price: "$18,750",
       image:
-        "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg",
+        "https://www.mrclab.com/Media/Image/Advanced%20Analytical%20Balances,%20Internal%20Calibration.jpg",
     },
     {
       id: 3,
@@ -142,7 +142,7 @@ const App = () => {
       description: "Next-generation DNA sequencing and analysis platform",
       price: "$35,800",
       image:
-        "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlSV9NjQpfJBC6pXvy_RB-CRLgR_8HM4ukQ&s",
     },
     {
       id: 4,
@@ -152,7 +152,7 @@ const App = () => {
         "Ultra-high resolution digital microscope with AI-powered image analysis",
       price: "$12,495",
       image:
-        "https://labkafe.com/storage/boiling-flask-lab-equipment-labkafe.jpg",
+        "https://cdn.britannica.com/50/114750-050-06EEB5F0/compound-microscope.jpg",
     },
   ];
 
@@ -415,7 +415,7 @@ const App = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="p-6">
