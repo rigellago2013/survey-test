@@ -541,7 +541,7 @@ const App = () => {
                 {stats.map((stat, index) => (
                   <div
                     key={index}
-                    className="bg-white p-6 rounded-lg shadow-sm"
+                    className="bg-white p-6 rounded-lg shadow-md"
                   >
                     <div className="text-blue-600 flex items-center mb-2">
                       {index === 0 ? (
