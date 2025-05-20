@@ -190,7 +190,7 @@ const App = () => {
         <img 
           src="https://png.pngtree.com/png-clipart/20230504/original/pngtree-3d-laboratory-glass-equipment-png-image_9137507.png" 
           alt="Laboratory equipment"
-          className="w-full h-auto rounded-lg shadow-lg"
+          className="w-full h-auto"
         />
       </div>
     </div>
