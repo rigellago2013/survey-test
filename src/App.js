@@ -159,8 +159,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-        {/* Header */}
-      <header className="py-4 border-b shadow-lg bg-white">
+      <header className="sticky top-0 z-50 py-4 border-b shadow-sm bg-white transition-shadow duration-300">
         <div className="container mx-auto px-4 pb-2">
           <div className="flex justify-between items-center">
             {/* Logo */}
@@ -172,8 +171,6 @@ const App = () => {
             </div>
 
             {/* Desktop Navigation */}
-
-            {/* CTA Button */}
             <div className="hidden md:flex items-center">
               <nav className="flex items-center space-x-6">
                 <a
@@ -229,7 +226,6 @@ const App = () => {
                   </div>
                 </form>
               </div>
-            
             </div>
 
             {/* Mobile menu button */}
@@ -295,7 +291,6 @@ const App = () => {
                     <Search size={16} className="text-gray-400" />
                   </div>
                 </form>
-
               </nav>
             </div>
           )}
