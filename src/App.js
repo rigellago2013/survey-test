@@ -302,7 +302,7 @@ const App = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             {/* Text Content - make it narrower */}
-            <div className="md:w-2/5 mb-8 md:mb-[15%]">
+            <div className="md:w-2/4 mb-8 md:mb-[15%]">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
                 Precision science{" "}
                 <span className="text-[#1f458c]">for over 25 years</span>
