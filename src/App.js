@@ -659,7 +659,7 @@ const App = () => {
           </div>
 
           <div className="flex flex-wrap justify-center items-center gap-6 mt-12">
-            {clients.map((client, index) => (
+            {clients.slice(0, 10).map((client, index) => (
               <div
                 key={index}
                 className="w-16 h-10 flex items-center justify-center"
