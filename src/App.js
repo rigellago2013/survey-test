@@ -40,6 +40,16 @@ const App = () => {
     { name: "Saudi Aramco", logo: "/client8.png" },
     { name: "Saudi Aramco", logo: "/client9.png" },
     { name: "Saudi Aramco", logo: "/client10.png" },
+     { name: "AREF", logo: "/client11.png" },
+    { name: "HALLIBURTON", logo: "/client12.png" },
+    { name: "HAIL CEMENT CO.", logo: "/client13.png" },
+    { name: "NAJRAN CEMENT", logo: "/client14.png" },
+    { name: "KACST", logo: "/client15.png" },
+    { name: "Saudi Aramco", logo: "/client16.png" },
+    { name: "Saudi Aramco", logo: "/client17.png" },
+    { name: "Saudi Aramco", logo: "/client18.png" },
+    { name: "Saudi Aramco", logo: "/client19.png" },
+    { name: "Saudi Aramco", logo: "/client20.png" },
   ];
 
   const certifications = [
@@ -341,7 +351,7 @@ const App = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-800 mb-2">
-              Our Clients
+              Our Clients and Partners
             </h2>
             <p className="text-gray-600">
               We have been working with industry leaders across the Middle East
