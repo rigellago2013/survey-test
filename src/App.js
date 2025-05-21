@@ -490,9 +490,9 @@ const App = () => {
                 </h3>
 
                 {/* Blue dot with spacing above and below */}
-                {/* <div className="flex justify-center my-4">
-        <div className="h-[0.5px] w-1/4  bg-blue-500"></div>
-      </div> */}
+                <div className="flex justify-center my-4">
+                    <div className="h-2 w-2  bg-blue-500"></div>
+                  </div>
 
                 <p className="text-gray-600 mb-4 px-[20%]">
                   {category.description}
