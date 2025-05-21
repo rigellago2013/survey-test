@@ -38,6 +38,8 @@ const App = () => {
     { name: "Saudi Aramco", logo: "/client6.png" },
     { name: "Saudi Aramco", logo: "/client7.png" },
     { name: "Saudi Aramco", logo: "/client8.png" },
+    { name: "Saudi Aramco", logo: "/client9.png" },
+    { name: "Saudi Aramco", logo: "/client10.png" },
   ];
 
   const certifications = [
@@ -335,7 +337,7 @@ const App = () => {
       </section>
 
       {/* Clients Section */}
-      <section className="py-12 md:py-16">
+      <section className="py-12 md:py-16 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-800 mb-2">
@@ -346,22 +348,25 @@ const App = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-            {clients.map((client, index) => (
-              <div
-                key={index}
-                className="w-24 h-12 flex items-center justify-center"
-              >
-                <img
-                  src={client.logo}
-                  alt={client.name}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-            ))}
+          <div className="relative w-full overflow-hidden">
+            <div className="animate-marquee flex gap-8 md:gap-12 w-max">
+              {clients.concat(clients).map((client, index) => (
+                <div
+                  key={index}
+                  className="w-24 h-12 flex items-center justify-center flex-shrink-0"
+                >
+                  <img
+                    src={client.logo}
+                    alt={client.name}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
+
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
@@ -469,11 +474,19 @@ const App = () => {
                 className="bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 p-8 rounded-lg text-center shadow-md hover:shadow-md transition-shadow duration-300"
               >
                 <div className="flex justify-center mb-6">{category.icon}</div>
-           
-                <h3 className="text-xl font-bold text-gray-800 mb-3 mt-3">
+
+                <h3 className="text-xl font-bold text-gray-800 mb-4">
                   {category.title}
                 </h3>
-                <p className="text-gray-600 mb-4 px-[20%]">{category.description}</p>
+
+                {/* Blue dot with spacing above and below */}
+                {/* <div className="flex justify-center my-4">
+        <div className="h-[0.5px] w-1/4  bg-blue-500"></div>
+      </div> */}
+
+                <p className="text-gray-600 mb-4 px-[20%]">
+                  {category.description}
+                </p>
               </div>
             ))}
           </div>
@@ -709,13 +722,13 @@ const App = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             <div>
-            <div className="flex items-center mb-3">
-              <img
-                src="http://prolabsystems.com/wp/wp-content/uploads/2015/12/ProLab-Systems-Logo-210x74.png"
-                alt="ProLab Systems Logo"
-                className="w-1/2"
-              />
-            </div>
+              <div className="flex items-center mb-3">
+                <img
+                  src="http://prolabsystems.com/wp/wp-content/uploads/2015/12/ProLab-Systems-Logo-210x74.png"
+                  alt="ProLab Systems Logo"
+                  className="w-1/2"
+                />
+              </div>
               <p className="text-gray-600 mb-4">
                 Your trusted partner in laboratory excellence since 1998
               </p>
